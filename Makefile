@@ -5,6 +5,6 @@ test: nimbus2000cc
 	./test.sh
 
 clean:
-	rm -r -f 2000cc *.o *~ tmp*
+	rm -r -f nimbus2000cc *.o *~ tmp*
 
 .PHONY: test clean
