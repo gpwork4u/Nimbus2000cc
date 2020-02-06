@@ -1,10 +1,10 @@
 CFLAGS=-std=c11 -g -static
 
-2000cc: 2000cc.c
-test: 2000cc
+nimbus2000cc: nimbus2000cc.c
+test: nimbus2000cc
 	./test.sh
 
 clean:
-	rm -r -f 2000cc *.o *~ tmp*
+	rm -r -f nimbus2000cc *.o *~ tmp*
 
 .PHONY: test clean
